@@ -21,12 +21,11 @@ fi
 }
 
 dnf install mysql -y
+VALIDATE $? "mysql"
 
-VALIDATE $? "MYSQL"
 
-
-dnf install ngnix -y
-VALIDATE $? "ngnix"
+dnf install nginx -y
+VALIDATE $? "nginx"
 
 
 #dnf install mongodb-mongosh -y
