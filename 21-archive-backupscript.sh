@@ -77,3 +77,5 @@ if [ ! -z "${FILES}" ]; then    #-z will check whehter it was empty or not
 else
     echo -e "No files to archeive ... $Y SKIPPING $N"
 fi
+
+
